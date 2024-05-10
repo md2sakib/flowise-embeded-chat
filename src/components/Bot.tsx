@@ -842,7 +842,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               'border-top-right-radius': props.isFullPage ? '0px' : '6px',
             }}
           >
-            <h4 style="padding:20px; font-weight: bolder">Eventos Chatbot</h4>
+            <h4 style={{ padding: '20px', 'font-weight': 'bolder' }}>Eventos Chatbot</h4>
             <Show when={props.titleAvatarSrc}>
               <>
                 <div style={{ width: '15px' }} />
